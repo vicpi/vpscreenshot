@@ -1,0 +1,19 @@
+{
+  "name": "vpscreenshot",
+  "version": "1.0.0",
+  "description": "Take screenshot of a webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --opts tests/mocha.opts"
+  },
+  "author": "Viktor Pyskunov",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^0.10.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
